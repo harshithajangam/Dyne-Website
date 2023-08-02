@@ -1,0 +1,87 @@
+.footer{
+    display: flex;
+    width: 98vw;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.footer .footer-left{
+    display: flex;
+    flex-direction: column;
+}
+.footer .left-footer h1{
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.footer .left-footer p{
+    color: white;
+    font-size: large;
+ 
+}
+
+
+.footer .left-footer p span{
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer .right-footer{
+    display: flex;
+    margin-left:200px ;
+   
+}
+.footer .right-footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.footer .right-footer form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border: none;
+    margin-left:5px ;
+    border-bottom: 2px solid var(--primary-color);
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+}
+.footer .right-footer form input:focus{
+    border-color:var(--primary-color) ;
+}
+.footer .right-footer form textarea{
+    width: 620px;
+    height: 150px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    border: none;
+    margin-left:5px ;
+    border-bottom: 2px solid var(--primary-color);
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+.footer .right-footer form button{
+    width: 170px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+    color: var(--primary-color);
+
+}
+

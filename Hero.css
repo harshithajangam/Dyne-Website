@@ -1,0 +1,35 @@
+.hero{
+    width: 98vw;
+    height:39vw;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+   
+}
+
+.hero h1{
+    display: flex;
+    margin-left:250px ;
+    font-size: xx-large;
+    color: var(--primary-color);
+}
+.hero p{
+    display: flex;
+    margin-left:250px ;
+    width: 600px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.about-button{
+    width: 150px;
+    height: 40px;
+    color: #c3a863;
+    font-size: medium;
+    font-weight: bold;
+    margin-left:250px ;
+}
+.about-button:hover{
+    cursor: pointer;
+}
